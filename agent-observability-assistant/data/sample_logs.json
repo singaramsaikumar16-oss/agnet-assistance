@@ -1,0 +1,11 @@
+[
+  {"timestamp":"", "service":"checkout", "severity":"ERROR", "error_type":"DatabaseTimeout", "message":"Checkout request timed out while waiting for database connection", "trace_id":"trace-1001"},
+  {"timestamp":"", "service":"checkout", "severity":"WARN", "error_type":"ConnectionPoolNearLimit", "message":"Database connection pool utilization reached 92 percent", "trace_id":"trace-1002"},
+  {"timestamp":"", "service":"checkout", "severity":"ERROR", "error_type":"DatabaseTimeout", "message":"Checkout request timed out while waiting for database connection", "trace_id":"trace-1003"},
+  {"timestamp":"", "service":"checkout", "severity":"INFO", "error_type":"", "message":"Checkout service started successfully", "trace_id":"trace-1004"},
+  {"timestamp":"", "service":"payments", "severity":"ERROR", "error_type":"UpstreamGatewayError", "message":"Payment gateway returned HTTP 502", "trace_id":"trace-2001"},
+  {"timestamp":"", "service":"payments", "severity":"WARN", "error_type":"RetryLimitNear", "message":"Payment retry count is approaching configured limit", "trace_id":"trace-2002"},
+  {"timestamp":"", "service":"catalog", "severity":"INFO", "error_type":"", "message":"Product cache refresh completed", "trace_id":"trace-3001"},
+  {"timestamp":"", "service":"checkout", "severity":"ERROR", "error_type":"DatabaseTimeout", "message":"Checkout request timed out while waiting for database connection", "trace_id":"trace-1005"},
+  {"timestamp":"", "service":"payments", "severity":"INFO", "error_type":"", "message":"Payment health check passed", "trace_id":"trace-2003"}
+]
